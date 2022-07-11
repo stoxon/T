@@ -53,7 +53,7 @@ article
     opacity: 90%;
 }
 
-img
+.person_photo
 {
     grid-area:img;
     border: white solid 0.05rem;
@@ -90,8 +90,14 @@ q
     opacity: 0.7;
 }
 
+.sign
+{
+    position: absolute;
+    right: 15%;
+}
 .card:nth-of-type(1)
 {
+    position: relative;
     background-color:#733FC8;
     color: #FFF7FF;
     grid-column: 1/3;
